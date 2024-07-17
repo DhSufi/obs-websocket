@@ -1560,7 +1560,7 @@ The output has been resumed (unpaused).
   - [StudioModeStateChanged](#studiomodestatechanged)
   - [ScreenshotSaved](#screenshotsaved)
 
-## General Events
+## General Events (1 << 0)
 
 ### ExitStarted
 
@@ -1607,7 +1607,7 @@ Custom event emitted by `BroadcastCustomEvent`.
 | ---- | :---: | ----------- |
 | eventData | Object | Custom event data |
 
-## Config Events
+## Config Events (1 << 1)
 
 ### CurrentSceneCollectionChanging
 
@@ -1708,7 +1708,7 @@ The profile list has changed.
 | ---- | :---: | ----------- |
 | profiles | Array&lt;String&gt; | Updated list of profiles |
 
-## Scenes Events
+## Scenes Events (1 << 2)
 
 ### SceneCreated
 
@@ -1814,7 +1814,7 @@ TODO: Make OBS fire this event when scenes are reordered.
 | ---- | :---: | ----------- |
 | scenes | Array&lt;Object&gt; | Updated array of scenes |
 
-## Inputs Events
+## Inputs Events (1 << 3)
 
 ### InputCreated
 
